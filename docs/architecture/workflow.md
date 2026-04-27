@@ -12,7 +12,7 @@ This workflow doc and docs/process/feature-lifecycle.md define how those artifac
 ## gstack Flow
 `/office-hours -> /autoplan -> implementation -> /review -> /qa -> /ship`
 
-Treat validation steps as conditional where appropriate: always run the required project checks, and use UI-specific verification only when a UI exists.
+This is a shorthand flow, and executable use still follows the conditional /plan-eng-review gate for architecture or risk-heavy work and /browse or /qa when a UI exists.
 
 ## Practical Rule
 - Update vision first if the product changes.

@@ -7,10 +7,11 @@
 
 ## Planning
 1. Run /office-hours when the request is still fuzzy.
-2. If no relevant file under docs/product/ exists yet, create or update one before /autoplan.
-3. Run /autoplan.
-4. For architecture or risk-heavy changes, run /plan-eng-review before implementation.
-5. Save the approved plan under docs/superpowers/plans/YYYY-MM-DD-<feature>.md.
+2. If no relevant file under docs/product/ exists yet, create one before /autoplan.
+3. If a relevant file under docs/product/ exists but is stale, update it before /autoplan.
+4. Run /autoplan.
+5. For architecture or risk-heavy changes, run /plan-eng-review before implementation.
+6. Save the approved plan under docs/superpowers/plans/YYYY-MM-DD-<feature>.md.
 
 ## Execution
 1. Implement on a feature branch.
