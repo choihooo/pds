@@ -23,6 +23,8 @@ As the user, I want to write today's entry, see previous entries, and update or 
 
 ## Open Questions
 
+These questions are currently resolved to `no` for v1 and are recorded here to prevent scope creep.
+
 - Draft autosave for v1: no
 - Tags for v1: no
 - Mood metadata for v1: no
