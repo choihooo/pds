@@ -17,6 +17,6 @@ This is a shorthand flow, and executable use still follows the conditional /plan
 ## Practical Rule
 - Update vision first if the product changes.
 - Update or create a file under docs/product/ if one feature changes.
-- If implementation starts without a plan, stop and create one under docs/superpowers/plans/.
+- If implementation starts without a plan, stop, create or refresh the needed product docs, run /autoplan, and save the approved plan under docs/superpowers/plans/.
 - For architecture or risk-heavy work, run /plan-eng-review before implementation.
 - Use /browse or /qa for browser verification when a UI exists.

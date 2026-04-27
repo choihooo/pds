@@ -3,7 +3,7 @@
 ## Intake
 1. Read CLAUDE.md.
 2. Read docs/product/vision.md.
-3. Read relevant file under docs/product/.
+3. Read the relevant file under docs/product/ if it already exists, and note whether planning needs to create one for a net-new feature.
 
 ## Planning
 1. Run /office-hours when the request is still fuzzy.
