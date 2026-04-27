@@ -2,7 +2,7 @@
 
 ## Problem
 
-The repository has no executable product definition, so planning tools diverge without a shared statement of intent.
+The user needs a simple, dependable place to capture personal notes and revisit them later, but the product definition is still vague enough that implementation and planning can drift away from that core need.
 
 ## Product Direction
 
@@ -22,4 +22,4 @@ A single end user writing personal notes.
 
 ## Success Criteria
 
-A stable MVP feature document exists so future plans can reference this file instead of guessing.
+The MVP enables one user to create an entry quickly, see saved entries in the expected reverse-chronological order, and edit or delete entries without confusion or data loss. A stable MVP feature document also exists so future plans can reference this file instead of guessing.
