@@ -7,8 +7,10 @@
 
 ## Planning
 1. Run /office-hours when the request is still fuzzy.
-2. Run /autoplan.
-3. Save the approved plan under docs/superpowers/plans/YYYY-MM-DD-<feature>.md.
+2. If no relevant file under docs/product/ exists yet, create or update one before /autoplan.
+3. Run /autoplan.
+4. For architecture or risk-heavy changes, run /plan-eng-review before implementation.
+5. Save the approved plan under docs/superpowers/plans/YYYY-MM-DD-<feature>.md.
 
 ## Execution
 1. Implement on a feature branch.
@@ -17,5 +19,5 @@
 
 ## Validation
 1. Run project tests.
-2. Run /qa when UI exists.
+2. Run /browse or /qa when UI exists.
 3. Run /ship only after code and docs match.
