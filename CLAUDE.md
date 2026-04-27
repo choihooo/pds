@@ -53,9 +53,9 @@ Use ~/.claude/skills/gstack/... for gstack file paths (the global path).
 
 ## Delivery Flow
 
-1. For product ambiguity or scope change, run `/office-hours` first.
-2. For new feature planning, run `/autoplan` and save the resulting plan under `docs/superpowers/plans/`.
-3. For architecture or risk review, run `/plan-eng-review` before implementation starts.
-4. For browser testing or visual verification, use `/browse` or `/qa`, never ad-hoc browser tools.
-5. Before merge, run `/review`.
-6. After implementation stabilizes, run `/ship`.
+1. Capture or revise product intent in `docs/product/`.
+2. Run `/office-hours` if the request changes product framing.
+3. Run `/autoplan` to create an implementation plan.
+4. Implement in a feature branch.
+5. Run `/review` and resolve findings.
+6. Run `/ship` once tests and docs are current.
