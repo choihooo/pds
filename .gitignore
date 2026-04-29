@@ -1,0 +1,3 @@
+# Prevent accidental vendoring of a repo-local gstack copy; this repo expects
+# the global install under ~/.claude/skills/gstack/.
+.claude/skills/gstack/
